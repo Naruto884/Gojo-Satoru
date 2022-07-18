@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2022-07-09 10:34 PM
+4.1.0 (0588)
+6b26a42 (Apr 22, 2022 3:20:28 AM)
+-->
+<scene title="New Project 12" width="1080" height="1350" exportWidth="1080" exportHeight="1350" precompose="dynamicResolution" bgcolor="#ffd8d8d8" totalTime="1565" fps="30" modifiedTime="1657398841993" amver="588" ffver="105" am="com.alightcreative.motios/4.1.0" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <shape id="761368" label="lv_0_20220708152559.mp4" startTime="0" endTime="1565" fillType="media" fillImage="content://media/external/images/media/120752" s=".rect">
+    <transform>
+      <location value="540.000000,675.000000,0.000000" />
+    </transform>
+    <effect id="com.alightcreative.effects.tile" locallyApplied="true">
+      <property name="scale" type="float" value="1.050000" />
+      <property name="phase" type="float" value="0.000000" />
+      <property name="mirror" type="bool" value="true" />
+      <property name="vertoffs" type="bool" value="false" />
+      <property name="angle" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.oscillate3" locallyApplied="true">
+      <property name="direction" type="int" value="0" />
+      <property name="angle" type="float" value="90.000000" />
+      <property name="freq" type="float" value="1.000000" />
+      <property name="mag" type="float">
+        <kf t="0.007874" v="200.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="type" type="int" value="0" />
+      <property name="phase" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.000000" v="80.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.75 0.75" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="6.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0 0.58 1.0" />
+      </property>
+      <property name="seed" type="float" value="0.000000" />
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.700000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.randomdisplace" locallyApplied="true">
+      <property name="mag" type="float">
+        <kf t="0.520651" v="0.000000" />
+        <kf t="0.938673" v="93.000000" e="cubicBezier 1.0 0.0 0.73888886 1.0" />
+      </property>
+      <property name="evolution" type="float">
+        <kf t="0.000000" v="1.050000" />
+        <kf t="0.520651" v="0.000000" e="cubicBezier 0.0 0.24117647 0.56777775 1.0" />
+        <kf t="0.938673" v="0.860000" e="cubicBezier 0.89666665 0.0 0.7633333 1.0" />
+      </property>
+      <property name="seed" type="float">
+        <kf t="0.520651" v="0.000000" />
+        <kf t="1.000000" v="0.010000" e="cubicBezier 1.0 0.0 1.0 0.67647064" />
+      </property>
+      <property name="scatter" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.motionblur4" locallyApplied="true">
+      <property name="tune" type="float" value="1.700000" />
+      <property name="usePos" type="bool" value="true" />
+      <property name="useScale" type="bool" value="true" />
+      <property name="useAngle" type="bool" value="true" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="false">
+      <property name="exposure" type="float">
+        <kf t="0.007512" v="2.000000" />
+        <kf t="1.000000" v="0.000000" e="cubicBezier 0.0 1.0777228 0.17465916 1.0078379" />
+      </property>
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <property name="size" type="vec2" value="540.000000,689.474915" />
+  </shape>
+</scene>
